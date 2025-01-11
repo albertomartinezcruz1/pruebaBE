@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "df1bb597-f6fa-4b75-90c9-89bb9b4341b7",
+		"name": "PRUEBA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40525836"
+	},
+	"item": [
+		{
+			"name": "API empleado",
+			"item": [
+				{
+					"name": "GET empleados",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8091/sistema/api/v1/empleados"
+					},
+					"response": []
+				},
+				{
+					"name": "POST empleados",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombres\": \"Juan\",\r\n    \"apellidos\": \"Pérez\",\r\n    \"curp\": \"JUAP010101HDFRNN01\",\r\n    \"puesto\": \"Desarrollador Java\",\r\n    \"id_jefe\": {\r\n        \"id_empleado\": \"EMP9876543210\",\r\n        \"nombres\": \"Carlos\",\r\n        \"apellidos\": \"Gómez\",\r\n        \"curp\": \"CARG010101HDFRNN02\",\r\n        \"puesto\": \"Jefe de Desarrollo\"\r\n    },\r\n    \"direcciones\": [\r\n        {\r\n            \"calle\": \"Calle Ficticia 123\",\r\n            \"no_exterior\": 123,\r\n            \"no_interior\": 456,\r\n            \"colonia\": \"Centro\",\r\n            \"municipio\": \"CDMX\",\r\n            \"estado\": \"CDMX\",\r\n            \"pais\": \"México\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8091/api/empleados"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT maping",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8091/api/empleados"
+			},
+			"response": []
+		}
+	]
+}
