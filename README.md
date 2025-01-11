@@ -36,7 +36,8 @@ Considerando la problemática anterior se deberán crear los siguientes servicio
 • Diagrama E-R de BD  
 • Colección Postman  
 • Link de repositorio en gitlab o github  
-• Base de datos  
-IMPORTANTE: Si no logra terminar el ejercicio, es importante nos comparta el avance que  
+• Base de datos    
+
+**IMPORTANTE**: Si no logra terminar el ejercicio, es importante nos comparta el avance que  
 haya obtenido. No se tomará en cuenta terminar el ejercicio, si no la forma en que se  
 desarrolló.  
