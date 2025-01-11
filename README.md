@@ -23,11 +23,15 @@ El puesto puede no incluirse al registrarse y deberá poderse modificar después
 De igual forma se deberá poder modificar el jefe inmediato en caso de que sea necesario.  
 Por último, es necesario generar una lista que indique los empleados de la empresa y sus  
 subordinados, tomando en cuando que un subordinado puede ser también jefe de una  
-subárea.    
+subárea.      
+
+  
 Considerando la problemática anterior se deberán crear los siguientes servicios API Rest:  
 • Registro de empleado  
 • Edición del empleado  
-• Lista de empleados    
+• Lista de empleados      
+
+  
 Entregables:  
 • Diagrama E-R de BD  
 • Colección Postman  
