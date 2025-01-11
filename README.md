@@ -32,7 +32,7 @@ Considerando la problemática anterior se deberán crear los siguientes servicio
 • Lista de empleados      
 
   
-Entregables:  
+**Entregables:**  
 • Diagrama E-R de BD  
 • Colección Postman  
 • Link de repositorio en gitlab o github  
